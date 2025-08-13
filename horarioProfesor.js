@@ -6,7 +6,7 @@ let horaInicioProfesor;
 let horaFinProfesor;
 let instituto;
 let recurrenciaDiaProfesor;
-let identificacionPersona;
+
 
 function crearHorario() {
 
@@ -31,8 +31,6 @@ function crearHorario() {
 
     recurrenciaDiaProfesor = prompt("Ingrese la recurrencia: ");
 
-    identificacionPersona = prompt("Ingrese la identificación de la persona: ");
-
     console.log("horario creado")
 }
 
@@ -45,7 +43,6 @@ function mostrarHorario(){
     console.log("La hora final es: " + horaFinProfesor);
     console.log("El instituto es: " + instituto);
     console.log("La recurrencia: " + recurrenciaDiaProfesor);
-    console.log("Identificacion Persona: " + identificacionPersona);
 }
 
 crearHorario();
