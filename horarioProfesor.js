@@ -40,6 +40,7 @@ function mostrarHorario(){
     console.log("El ID Horario es: " + idHorarioProfesor);
     console.log("La materia es: " + materiaProfesor);
     console.log("La fecha inicial es: " + fechaInicioProfesor);
+    console.log("La fecha final es: " + fechaFinalizacionProfesor);
     console.log("La hora inicial: " + horaInicioProfesor);
     console.log("La hora final es: " + horaFinProfesor);
     console.log("El instituto es: " + instituto);
